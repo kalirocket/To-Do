@@ -1,0 +1,11 @@
+{
+    "Go to school today": {
+        "completed": true
+    },
+    "Got for my luck at 2:00pm": {
+        "completed": true
+    },
+    "Go for piano tut": {
+        "completed": false
+    }
+}
