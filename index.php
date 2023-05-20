@@ -1,11 +1,11 @@
 <?php 
-const fileName = 'todo.json';
-$jsonArray = [];
+    const fileName = 'todo.json';
+    $jsonArray = [];
 
-if (file_exists(fileName)){
-    $json = file_get_contents(fileName);
-    $jsonArray = json_decode($json, true);
-} 
+    if (file_exists(fileName)){
+        $json = file_get_contents(fileName);
+        $jsonArray = json_decode($json, true);
+    } 
 
 ?>
 
