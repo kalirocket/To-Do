@@ -4,4 +4,5 @@
     $jsonArray[$todo_name]['completed'] = !$status;
     require_once("./overrideFileContent.php");
     require_once("./redirectIndex.php");
+    exit;
 ?>

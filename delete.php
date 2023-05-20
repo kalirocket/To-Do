@@ -3,4 +3,5 @@
     unset($jsonArray[$todo_name]);
     require_once("./overrideFileContent.php");
     require_once("./redirectIndex.php");
+    exit;
 ?>
